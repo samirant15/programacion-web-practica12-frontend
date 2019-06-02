@@ -54,7 +54,7 @@ const mapDispatchToProps = (dispatch) => {
 
 const mapStateToProps = (state) => {
   return {
-    language: state.language.getAllTexts,
+    language: state.languageReducer.getAllTexts,
   }
 }
 
